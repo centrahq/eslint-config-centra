@@ -1,0 +1,72 @@
+{
+  "@typescript-eslint/no-shadow": ["error", {
+    "ignoreTypeValueShadow": true
+  }],
+  "@typescript-eslint/func-call-spacing": "error",
+  "@typescript-eslint/prefer-literal-enum-member": "error",
+  "@typescript-eslint/ban-ts-comment": "error",
+  "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+  "@typescript-eslint/no-unnecessary-condition": "warn",
+  "@typescript-eslint/strict-boolean-expressions": ["warn", {
+    "allowNullableBoolean": true
+  }],
+  "@typescript-eslint/no-explicit-any": "warn",
+  "@typescript-eslint/explicit-module-boundary-types": "off",
+  "@typescript-eslint/no-namespace": "off",
+  "@typescript-eslint/no-empty-interface": "off",
+  "@typescript-eslint/restrict-plus-operands": ["error", {
+    "checkCompoundAssignments": true
+  }],
+  "@typescript-eslint/no-confusing-void-expression": "off",
+  "@typescript-eslint/no-unused-vars": "off",
+  "@typescript-eslint/no-unused-vars-experimental": "error",
+  "@typescript-eslint/no-non-null-assertion": "warn",
+  "@typescript-eslint/naming-convention": ["error",
+    {
+      "selector": "default",
+      "format": ["camelCase", "PascalCase", "UPPER_CASE"]
+    },
+    {
+      "selector": "default",
+      "format": null,
+      "leadingUnderscore": "allow",
+      "filter": {
+        "regex": "^_*",
+        "match": true
+      }
+    }
+  ],
+  "@typescript-eslint/explicit-member-accessibility": ["error", {
+    "accessibility": "no-public"
+  }],
+  "@typescript-eslint/member-ordering": ["error", {
+    "default": {
+      "memberTypes":[
+      "public-field",
+      "private-field",
+      "protected-field",
+      "private-method",
+      "protected-method",
+      "public-method"
+    ]}
+  }],
+  "@typescript-eslint/member-delimiter-style": "error",
+  "@typescript-eslint/type-annotation-spacing": "error",
+  "@typescript-eslint/no-unnecessary-qualifier": "off",
+  "@typescript-eslint/promise-function-async": "error",
+  "@typescript-eslint/no-dynamic-delete": "error",
+  "@typescript-eslint/no-this-alias": ["error", {
+    "allowDestructuring": true
+  }],
+  "@typescript-eslint/no-unnecessary-type-arguments": "error",
+  "@typescript-eslint/no-for-in-array": "error",
+  "@typescript-eslint/prefer-readonly": "error",
+  "@typescript-eslint/no-extraneous-class": "error",
+  "@typescript-eslint/no-inferrable-types": ["error", {
+    "ignoreParameters": true
+  }],
+  "@typescript-eslint/consistent-type-assertions": ["error", {
+    "assertionStyle": "as",
+    "objectLiteralTypeAssertions": "never"
+  }]
+}

@@ -1,0 +1,5 @@
+{
+    "@shopify/prefer-early-return": ["error", {
+            "maximumStatements": 2
+        }]
+}

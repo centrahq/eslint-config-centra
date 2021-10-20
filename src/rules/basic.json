@@ -1,0 +1,72 @@
+{
+  "camelcase": "off",
+  "no-shadow": "off",
+  "func-call-spacing": "off",
+  "no-underscore-dangle": ["error", {
+    "allow": ["__SHOWROOM_SETTINGS__", "__SHOWROOM_WORKSPACES__", "__REDUX_DEVTOOLS_EXTENSION_COMPOSE__", "__html"]
+  }],
+  "no-new-func": "error",
+  "no-else-return": "error",
+  "no-useless-constructor": "error",
+  "no-extra-bind": "error",
+  "no-restricted-imports": ["error", "moment", "lodash"],
+  "space-before-function-paren": ["error", {
+    "anonymous": "always",
+    "named": "never",
+    "asyncArrow": "always"
+  }],
+  "max-len": ["error", {
+    "code": 140,
+    "ignoreTrailingComments": true
+  }],
+  "semi": ["error", "always"],
+  "comma-dangle": ["error", "always-multiline"],
+  "no-use-before-define": "off",
+  "no-console": "error",
+  "no-magic-numbers": ["warn", {
+    "ignoreArrayIndexes": true,
+    "ignore": [0, 1, -1]
+  }],
+  "curly": ["error", "all"],
+  "no-restricted-syntax": [ "error",
+    {
+      "selector": "CallExpression[callee.object.name='Math'][callee.property.name='random']",
+      "message": "Math.random produces insecure random numbers."
+    },
+    {
+      "selector": "CallExpression[callee.name='execScript']",
+      "message": "Do not use the execScript functions."
+    }
+  ],
+  "arrow-parens": ["error", "as-needed"],
+  "newline-before-return": "error",
+  "sort-keys": "error",
+  "quote-props": ["error", "consistent"],
+  "jsx-quotes": ["error", "prefer-double"],
+  "eqeqeq": "error",
+  "prefer-destructuring": "warn",
+  "no-param-reassign": "error",
+  "max-classes-per-file": ["error", 1],
+  "max-params": ["warn", 3],
+  "object-shorthand": ["error", "always", { "avoidQuotes": true }],
+  "complexity": "off",
+  "default-case": "error",
+  "no-fallthrough": "error",
+  "lines-between-class-members": "error",
+  "id-length": ["warn", { "exceptionPatterns": ["_", "K", "P", "T", "U", "V", "x", "y", "a", "b", "t"] }],
+  "class-methods-use-this": "error",
+  "no-prototype-builtins": "off",
+  "computed-property-spacing": "error",
+  "prefer-arrow-callback": ["error", {
+    "allowNamedFunctions": true
+  }],
+  "no-loop-func": "error",
+  "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
+  "no-warning-comments": ["error", {
+    "terms": ["BUG", "HACK", "FIXME", "TODO"],
+    "location": "anywhere"
+  }],
+  "operator-linebreak": "off",
+  "prefer-promise-reject-errors": "off",
+  "no-useless-escape": "warn"
+}

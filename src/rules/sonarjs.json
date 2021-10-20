@@ -1,0 +1,5 @@
+{
+  "sonarjs/no-duplicate-string": ["error", 5],
+  "sonarjs/cognitive-complexity": ["error", 20],
+  "sonarjs/no-identical-functions": "warn"
+}

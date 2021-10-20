@@ -1,0 +1,6 @@
+{
+  "functional/immutable-data": ["error", {
+    "ignoreImmediateMutation": true
+  }],
+  "functional/no-let": "warn"
+}
