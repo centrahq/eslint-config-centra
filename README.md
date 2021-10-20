@@ -15,7 +15,6 @@ A shareable ESLint configuration used in Centra projects.
     ```
 
     This will pull the current `master` each time `eslint-config-centra` is installed.
-    You can also install a specific Git tag, e.g. `github:centrahq/eslint-config-centra#v0.2.1`.
 
     > Note: in order to install private GitHub packages, the user needs to have access
     > to this repository. When installing the app on Heroku, a following script may be required:
