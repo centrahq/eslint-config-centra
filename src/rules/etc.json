@@ -1,3 +1,4 @@
 {
-  "etc/no-commented-out-code": "error"
+  "etc/no-commented-out-code": "error",
+  "etc/no-deprecated": "warn"
 }
