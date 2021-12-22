@@ -32,7 +32,8 @@ module.exports = {
     'plugin:sonarjs/recommended',
     'plugin:clean-codestyle/recommended',
     'plugin:etc/recommended',
-    'plugin:@microsoft/sdl/recommended'
+    'plugin:@microsoft/sdl/recommended',
+    'plugin:react-hooks/recommended',
   ],
   plugins: [
     'import',

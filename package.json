@@ -16,9 +16,9 @@
     "url": "https://github.com/centrahq/eslint-config-centra/issues"
   },
   "author": {
-    "name" : "Centra",
-    "email" : "devteam@centra.com",
-    "url" : "https://centra.com"
+    "name": "Centra",
+    "email": "devteam@centra.com",
+    "url": "https://centra.com"
   },
   "license": "ISC",
   "homepage": "https://github.com/centrahq/eslint-config-centra#readme",
@@ -39,6 +39,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.6.0",
