@@ -24,7 +24,6 @@ module.exports = {
     },
     ignorePatterns: [
         'node_modules/',
-        'postcss.config.js',
         '*.js',
         '*.scss.d.ts',
         '*.css.d.ts'
