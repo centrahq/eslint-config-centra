@@ -6,7 +6,7 @@
     "allow": ["__SHOWROOM_SETTINGS__", "__SHOWROOM_WORKSPACES__", "__REDUX_DEVTOOLS_EXTENSION_COMPOSE__", "__html"]
   }],
   "no-new-func": "error",
-  "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+  "no-unused-vars": "off",
   "no-else-return": "error",
   "no-useless-constructor": "error",
   "no-extra-bind": "error",
