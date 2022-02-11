@@ -46,7 +46,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.6.0",
     "eslint-plugin-unicorn": "^39.0.0",
-    "@shopify/eslint-plugin": "^40.5.0"
+    "@shopify/eslint-plugin": "^41.1.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.1",
