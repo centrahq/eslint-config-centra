@@ -7,5 +7,6 @@
     "react/no-unused-state": "error",
     "react/no-danger": "warn",
     "react/jsx-tag-spacing": "error",
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "react/jsx-no-target-blank": ["error", { "warnOnSpreadAttributes": false }]
 }
