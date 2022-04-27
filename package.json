@@ -55,6 +55,7 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "start": "tsc --watch"
+    "start": "tsc --watch",
+    "prepare": "husky install"
   }
 }
