@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-centra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for Centra projects",
   "keywords": [
     "code linter",
@@ -26,31 +26,32 @@
   "license": "MIT",
   "homepage": "https://github.com/centrahq/eslint-config-centra#readme",
   "peerDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "8.x"
   },
   "dependencies": {
-    "@microsoft/eslint-plugin-sdl": "^0.1.5",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-import-resolver-typescript": "^2.4.0",
+    "@microsoft/eslint-plugin-sdl": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-clean-codestyle": "^1.1.0",
-    "eslint-plugin-etc": "^1.5.4",
-    "eslint-plugin-functional": "^3.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-etc": "^2.0.2",
+    "eslint-plugin-functional": "^4.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-react": "^7.23.1",
-    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-sonarjs": "^0.6.0",
-    "eslint-plugin-unicorn": "^39.0.0",
-    "@shopify/eslint-plugin": "^41.1.0"
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "@shopify/eslint-plugin": "^41.2.1"
   },
   "devDependencies": {
-    "@types/node": "^16.11.1",
-    "typescript": "^4.5.2"
+    "@types/node": "^17.0.29",
+    "husky": "^7.0.4",
+    "typescript": "^4.6.3"
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
