@@ -1,4 +1,5 @@
 name: publish-package
+on: push
 # on:
 #   release:
 #     types: [created]
