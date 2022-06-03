@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-centra",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint config for Centra projects",
   "keywords": [
     "code linter",
