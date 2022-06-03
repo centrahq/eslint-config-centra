@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
+    "@shopify/eslint-plugin": "^41.2.1",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint-config-standard": "^17.0.0",
@@ -39,6 +40,7 @@
     "eslint-plugin-functional": "^4.2.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-n": "^15.2.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
@@ -46,8 +48,7 @@
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.13.0",
-    "eslint-plugin-unicorn": "^42.0.0",
-    "@shopify/eslint-plugin": "^41.2.1"
+    "eslint-plugin-unicorn": "^42.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.29",
