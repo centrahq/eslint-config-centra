@@ -3,9 +3,7 @@
     "etc/no-deprecated": [
         "warn",
         {
-            "ignored": {
-                "app": "app/js"
-            }
+            "ignored": {}
         }
     ]
 }

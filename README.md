@@ -7,7 +7,7 @@ A shareable ESLint configuration used in Centra projects.
 1. Install the package.
 
     ```bash
-    npm i -D github:centrahq/eslint-config-centra
+    npm i -D eslint-config-centra
     ```
 
 1. Add `eslint-centra-config` to your `.eslintrc`.

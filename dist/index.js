@@ -16,6 +16,7 @@ const simple_import_sort_json_1 = __importDefault(require("./rules/simple-import
 const sonarjs_json_1 = __importDefault(require("./rules/sonarjs.json"));
 const typescript_json_1 = __importDefault(require("./rules/typescript.json"));
 const unicorn_json_1 = __importDefault(require("./rules/unicorn.json"));
+const react_hooks_json_1 = __importDefault(require("./rules/react-hooks.json"));
 module.exports = {
     env: {
         browser: true,
@@ -24,7 +25,6 @@ module.exports = {
     },
     ignorePatterns: [
         'node_modules/',
-        'postcss.config.js',
         '*.js',
         '*.scss.d.ts',
         '*.css.d.ts'
@@ -37,7 +37,8 @@ module.exports = {
         'plugin:sonarjs/recommended',
         'plugin:clean-codestyle/recommended',
         'plugin:etc/recommended',
-        'plugin:@microsoft/sdl/recommended'
+        'plugin:@microsoft/sdl/recommended',
+        'plugin:react-hooks/recommended',
     ],
     plugins: [
         'import',
@@ -52,7 +53,8 @@ module.exports = {
         '@microsoft/sdl',
         'security',
         'unicorn',
-        'functional'
+        'functional',
+        'react-hooks'
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -60,7 +62,7 @@ module.exports = {
         tsconfigRootDir: './',
         sourceType: 'module'
     },
-    rules: Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, basic_json_1.default), etc_json_1.default), functional_json_1.default), import_json_1.default), jsx_a11y_json_1.default), node_json_1.default), shopify_json_1.default), react_json_1.default), security_json_1.default), simple_import_sort_json_1.default), sonarjs_json_1.default), typescript_json_1.default), unicorn_json_1.default),
+    rules: Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, basic_json_1.default), etc_json_1.default), functional_json_1.default), import_json_1.default), jsx_a11y_json_1.default), node_json_1.default), shopify_json_1.default), react_json_1.default), security_json_1.default), simple_import_sort_json_1.default), sonarjs_json_1.default), typescript_json_1.default), unicorn_json_1.default), react_hooks_json_1.default),
     settings: {
         'import/resolver': {
             typescript: {}
