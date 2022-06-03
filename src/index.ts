@@ -11,6 +11,7 @@ import simpleImportSortRules from './rules/simple-import-sort.json';
 import sonarjsRules from './rules/sonarjs.json';
 import typescriptRules from './rules/typescript.json';
 import unicornRules from './rules/unicorn.json';
+import reactHooks from './rules/react-hooks.json';
 
 module.exports = {
   env: {
@@ -32,7 +33,8 @@ module.exports = {
     'plugin:sonarjs/recommended',
     'plugin:clean-codestyle/recommended',
     'plugin:etc/recommended',
-    'plugin:@microsoft/sdl/recommended'
+    'plugin:@microsoft/sdl/recommended',
+    'plugin:react-hooks/recommended',
   ],
   plugins: [
     'import',
@@ -47,7 +49,8 @@ module.exports = {
     '@microsoft/sdl',
     'security',
     'unicorn',
-    'functional'
+    'functional',
+    'react-hooks'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -69,6 +72,7 @@ module.exports = {
     ...sonarjsRules,
     ...typescriptRules,
     ...unicornRules,
+    ...reactHooks,
   },
   settings: {
     'import/resolver': {
