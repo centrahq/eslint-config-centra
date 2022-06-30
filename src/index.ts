@@ -12,6 +12,7 @@ import sonarjsRules from './rules/sonarjs.json';
 import typescriptRules from './rules/typescript.json';
 import unicornRules from './rules/unicorn.json';
 import reactHooks from './rules/react-hooks.json';
+import prettier from './rules/prettier.json';
 
 module.exports = {
   env: {
@@ -35,8 +36,10 @@ module.exports = {
     'plugin:etc/recommended',
     'plugin:@microsoft/sdl/recommended',
     'plugin:react-hooks/recommended',
+    "prettier",
   ],
   plugins: [
+    'no-autofix',
     'import',
     'simple-import-sort',
     'react',
@@ -50,7 +53,8 @@ module.exports = {
     'security',
     'unicorn',
     'functional',
-    'react-hooks'
+    'react-hooks',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -73,6 +77,7 @@ module.exports = {
     ...typescriptRules,
     ...unicornRules,
     ...reactHooks,
+    ...prettier,
   },
   settings: {
     'import/resolver': {

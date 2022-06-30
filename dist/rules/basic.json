@@ -17,7 +17,7 @@
             "asyncArrow": "always"
         }],
     "max-len": ["error", {
-            "code": 140,
+            "code": 100,
             "ignoreTrailingComments": true
         }],
     "semi": ["error", "always"],
@@ -39,7 +39,7 @@
             "message": "Do not use the execScript functions."
         }
     ],
-    "arrow-parens": ["error", "as-needed"],
+    "arrow-parens": ["error", "always"],
     "newline-before-return": "error",
     "sort-keys": "error",
     "quote-props": ["error", "consistent"],
