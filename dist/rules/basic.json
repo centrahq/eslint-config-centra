@@ -17,7 +17,7 @@
             "asyncArrow": "always"
         }],
     "max-len": ["error", {
-            "code": 100,
+            "code": 140,
             "ignoreTrailingComments": true
         }],
     "semi": ["error", "always"],
