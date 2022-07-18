@@ -41,6 +41,7 @@ module.exports = {
         'plugin:react-hooks/recommended',
     ],
     plugins: [
+        'no-autofix',
         'import',
         'simple-import-sort',
         'react',
