@@ -41,7 +41,8 @@
   ],
   "arrow-parens": ["error", "as-needed"],
   "newline-before-return": "error",
-  "sort-keys": "error",
+  "sort-keys": "off",
+  "sort-keys-fix/sort-keys-fix": "error",
   "quote-props": ["error", "consistent"],
   "jsx-quotes": ["error", "prefer-double"],
   "eqeqeq": "error",
@@ -69,6 +70,5 @@
   }],
   "operator-linebreak": "off",
   "prefer-promise-reject-errors": "off",
-  "no-useless-escape": "warn",
-  "sort-keys-fix/sort-keys-fix": "warn"
+  "no-useless-escape": "warn"
 }
