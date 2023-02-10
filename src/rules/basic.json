@@ -69,5 +69,6 @@
   }],
   "operator-linebreak": "off",
   "prefer-promise-reject-errors": "off",
-  "no-useless-escape": "warn"
+  "no-useless-escape": "warn",
+  "sort-keys-fix/sort-keys-fix": "warn"
 }
