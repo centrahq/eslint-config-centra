@@ -52,7 +52,7 @@ module.exports = {
     'unicorn',
     'functional',
     'react-hooks',
-    "sort-keys-fix"
+    'sort-keys-fix'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
