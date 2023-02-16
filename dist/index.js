@@ -55,7 +55,8 @@ module.exports = {
         'security',
         'unicorn',
         'functional',
-        'react-hooks'
+        'react-hooks',
+        'sort-keys-fix'
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
