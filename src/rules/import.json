@@ -1,6 +1,0 @@
-{
-  "import/named": "error",
-  "import/no-cycle": ["error", {
-    "maxDepth": "∞"
-  }]
-}

@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const basic_json_1 = __importDefault(require("./rules/basic.json"));
 const etc_json_1 = __importDefault(require("./rules/etc.json"));
 const functional_json_1 = __importDefault(require("./rules/functional.json"));
-const import_json_1 = __importDefault(require("./rules/import.json"));
 const jsx_a11y_json_1 = __importDefault(require("./rules/jsx-a11y.json"));
 const node_json_1 = __importDefault(require("./rules/node.json"));
 const react_json_1 = __importDefault(require("./rules/react.json"));
@@ -39,6 +38,7 @@ module.exports = {
         'plugin:etc/recommended',
         'plugin:@microsoft/sdl/recommended',
         'plugin:react-hooks/recommended',
+        'plugin:import/typescript',
     ],
     plugins: [
         'no-autofix',
@@ -64,11 +64,8 @@ module.exports = {
         tsconfigRootDir: './',
         sourceType: 'module'
     },
-    rules: Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, basic_json_1.default), etc_json_1.default), functional_json_1.default), import_json_1.default), jsx_a11y_json_1.default), node_json_1.default), shopify_json_1.default), react_json_1.default), security_json_1.default), simple_import_sort_json_1.default), sonarjs_json_1.default), typescript_json_1.default), unicorn_json_1.default), react_hooks_json_1.default),
+    rules: Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, basic_json_1.default), etc_json_1.default), functional_json_1.default), jsx_a11y_json_1.default), node_json_1.default), shopify_json_1.default), react_json_1.default), security_json_1.default), simple_import_sort_json_1.default), sonarjs_json_1.default), typescript_json_1.default), unicorn_json_1.default), react_hooks_json_1.default),
     settings: {
-        'import/resolver': {
-            typescript: {}
-        },
         react: {
             version: 'detect'
         }

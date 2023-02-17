@@ -1,7 +1,6 @@
 import basicRules from './rules/basic.json';
 import etcRules from './rules/etc.json';
 import functionalRules from './rules/functional.json';
-import importRules from './rules/import.json';
 import jsxA11yRules from './rules/jsx-a11y.json';
 import nodeRules from './rules/node.json';
 import reactRules from './rules/react.json';
@@ -35,6 +34,7 @@ module.exports = {
     'plugin:etc/recommended',
     'plugin:@microsoft/sdl/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:import/typescript',
   ],
   plugins: [
     'no-autofix',
@@ -64,7 +64,6 @@ module.exports = {
     ...basicRules,
     ...etcRules,
     ...functionalRules,
-    ...importRules,
     ...jsxA11yRules,
     ...nodeRules,
     ...shopitfyRules,
@@ -77,9 +76,6 @@ module.exports = {
     ...reactHooks,
   },
   settings: {
-    'import/resolver': {
-      typescript: {}
-    },
     react: {
       version: 'detect'
     }
