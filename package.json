@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-centra",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Eslint config for Centra projects",
   "keywords": [
     "code linter",
@@ -12,7 +12,7 @@
   ],
   "main": "./dist/index.js",
   "files": [
-    "/dist/*"
+    "/dist/**/*"
   ],
   "repository": {
     "type": "git",
