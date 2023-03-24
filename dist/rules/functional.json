@@ -1,7 +1,0 @@
-{
-    "functional/immutable-data": ["error", {
-            "ignoreAccessorPattern": "**.current",
-            "ignoreImmediateMutation": true
-        }],
-    "functional/no-let": "warn"
-}

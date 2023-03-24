@@ -1,4 +1,0 @@
-{
-    "security/detect-non-literal-require": "error",
-    "security/detect-possible-timing-attacks": "error"
-}
