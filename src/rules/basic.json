@@ -26,7 +26,11 @@
   "no-console": "error",
   "no-magic-numbers": ["warn", {
     "ignoreArrayIndexes": true,
-    "ignore": [0, 1, -1]
+    "ignore": [
+      -1, 0, 1, 2, 10,
+      45, 90, 180, 360,
+      7, 12, 24, 30, 60, 365, 1000
+    ]
   }],
   "curly": ["error", "all"],
   "no-restricted-syntax": [ "error",
