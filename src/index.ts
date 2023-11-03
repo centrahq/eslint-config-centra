@@ -2,7 +2,6 @@ import basicRules from './rules/basic.json';
 import etcRules from './rules/etc.json';
 import functionalRules from './rules/functional.json';
 import jsxA11yRules from './rules/jsx-a11y.json';
-import nodeRules from './rules/node.json';
 import reactRules from './rules/react.json';
 import securityRules from './rules/security.json';
 import shopitfyRules from './rules/shopify.json';
@@ -65,7 +64,6 @@ module.exports = {
     ...etcRules,
     ...functionalRules,
     ...jsxA11yRules,
-    ...nodeRules,
     ...shopitfyRules,
     ...reactRules,
     ...securityRules,
