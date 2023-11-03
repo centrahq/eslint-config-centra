@@ -3,26 +3,20 @@ import etcRules from './rules/etc.json';
 import functionalRules from './rules/functional.json';
 import jsxA11yRules from './rules/jsx-a11y.json';
 import reactRules from './rules/react.json';
+import reactHooks from './rules/react-hooks.json';
 import securityRules from './rules/security.json';
 import shopitfyRules from './rules/shopify.json';
 import simpleImportSortRules from './rules/simple-import-sort.json';
 import sonarjsRules from './rules/sonarjs.json';
 import typescriptRules from './rules/typescript.json';
 import unicornRules from './rules/unicorn.json';
-import reactHooks from './rules/react-hooks.json';
 
 module.exports = {
   env: {
     browser: true,
+    es6: true,
     node: true,
-    es6: true
   },
-  ignorePatterns: [
-    'node_modules/',
-    '*.js',
-    '*.scss.d.ts',
-    '*.css.d.ts'
-  ],
   extends: [
     'standard',
     'plugin:jsx-a11y/recommended',
@@ -35,6 +29,18 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:import/typescript',
   ],
+  ignorePatterns: [
+    'node_modules/',
+    '*.js',
+    '*.scss.d.ts',
+    '*.css.d.ts',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+    tsconfigRootDir: './',
+  },
   plugins: [
     'no-autofix',
     'import',
@@ -51,14 +57,8 @@ module.exports = {
     'unicorn',
     'functional',
     'react-hooks',
-    'sort-keys-fix'
+    'sort-keys-fix',
   ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: './tsconfig.json',
-    tsconfigRootDir: './',
-    sourceType: 'module'
-  },
   rules: {
     ...basicRules,
     ...etcRules,
@@ -75,7 +75,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect'
-    }
-  }
+      version: 'detect',
+    },
+  },
 };

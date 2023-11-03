@@ -1,6 +1,6 @@
 {
   "functional/immutable-data": ["error", {
-    "ignoreAccessorPattern": "**.current",
+    "ignoreAccessorPattern": ["**.current", "module.exports"],
     "ignoreImmediateMutation": true
   }],
   "functional/no-let": "warn"

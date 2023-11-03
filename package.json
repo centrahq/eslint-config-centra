@@ -61,6 +61,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "start": "tsc --watch",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "npm run build && eslint --config dist/index.js src/index.ts"
   }
 }
