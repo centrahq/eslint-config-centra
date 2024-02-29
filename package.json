@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-centra",
-  "version": "1.1.6",
+  "version": "2.0.0",
   "description": "Eslint config for Centra projects",
   "keywords": [
     "code linter",
@@ -32,32 +32,32 @@
     "eslint": "8.x"
   },
   "dependencies": {
-    "@microsoft/eslint-plugin-sdl": "^0.2.0",
-    "@shopify/eslint-plugin": "^42.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-import-resolver-typescript": "^3.5.3",
-    "eslint-plugin-clean-codestyle": "^1.1.0",
-    "eslint-plugin-etc": "^2.0.2",
-    "eslint-plugin-functional": "^5.0.2",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-no-autofix": "^1.2.3",
+    "@microsoft/eslint-plugin-sdl": "0.2.2",
+    "@shopify/eslint-plugin": "44.0.0",
+    "@typescript-eslint/eslint-plugin": "7.1.0",
+    "@typescript-eslint/parser": "7.1.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-clean-codestyle": "1.1.0",
+    "eslint-plugin-etc": "2.0.3",
+    "eslint-plugin-functional": "6.0.1",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-n": "16.6.2",
+    "eslint-plugin-no-autofix": "1.2.3",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0",
-    "eslint-plugin-security": "^1.5.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-security": "2.1.1",
+    "eslint-plugin-simple-import-sort": "12.0.0",
+    "eslint-plugin-sonarjs": "0.24.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-unicorn": "^47.0.0"
+    "eslint-plugin-unicorn": "51.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
-    "typescript": "^5.0.4"
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
